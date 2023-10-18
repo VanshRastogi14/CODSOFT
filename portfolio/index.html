@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vansh-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(9, 1, 45);
+            color: antiquewhite;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(37, 9, 80);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            font-size: 1.05rem;
+            color: rgb(129, 11, 94)
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(138, 136, 223);
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+
+        }
+
+        .leftsection {
+            font-size: 3rem;
+        }
+
+        .leftsection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            background: rgb(27, 27, 113);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightsection img {
+            width: 80%;
+
+        }
+
+        .purple {
+            color: darkviolet;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: darkviolet;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: rgb(8, 3, 29);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Vansh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi,My name is <span class="purple">Vansh</span>
+                <div>and I am a </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="bgg.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I Have Done So Far</span>
+            <h1>
+                Work Experience
+            </h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Experienced HTML developer proficient in creating clean, efficient, and responsive code for
+                        various web applications. Skilled in optimizing user experience through the implementation of
+                        modern HTML5 techniques. Adept at collaborating with cross-functional teams to achieve project
+                        goals, ensuring seamless integration of HTML elements with other web technologies.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="fb.png" alt="">
+                    <div class="vertical-title">
+                        Node.js Developer-Facebook (2012-2014)
+                    </div>
+                    <div class="vertical-desc">
+                        As a Node.js developer at Facebook, contributed to the development and maintenance of
+                        high-traffic and complex applications. Leveraged Node.js to build scalable and efficient
+                        server-side solutions, integrating with other technologies to ensure seamless functionality.
+                        Collaborated with cross-functional teams, employing best practices to enhance user experience
+                        and application performance.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="insta.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer-Instagram (2014-2015)
+                    </div>
+                    <div class="vertical-desc">
+                        As an HTML developer at Instagram, contributed to the design and implementation of user
+                        interfaces for the platform. Leveraged HTML and CSS to create visually appealing and responsive
+                        web components, ensuring optimal user experience across devices. Collaborated with design and
+                        engineering teams to implement efficient and innovative web solutions for Instagram's interface.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="tweet.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer-Twitter (2015-2016)
+                    </div>
+                    <div class="vertical-desc">
+                        As an HTML developer at Twitter, contributed to the development and maintenance of the
+                        platform's user interface. Utilized HTML and CSS to create dynamic and responsive web elements,
+                        ensuring a seamless user experience. Collaborated with cross-functional teams to implement
+                        innovative design solutions and optimize web performance for Twitter's interface.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="fb.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer-Facebook (2016-2017)
+                    </div>
+                    <div class="vertical-desc">
+                        As a HTML developer at Facebook, contributed to the development and maintenance of high-traffic
+                        and complex applications. Leveraged Node.js to build scalable and efficient server-side
+                        solutions, integrating with other technologies to ensure seamless functionality. Collaborated
+                        with cross-functional teams, employing best practices to enhance user experience and application
+                        performance.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="yt.png" alt="">
+                    <div class="vertical-title">
+                        Software Developer-Youtube (2017-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        As a software developer at YouTube, contributed to the development and enhancement of the
+                        platform's features and functionalities. Collaborated on the implementation of scalable and
+                        efficient software solutions, leveraging cutting-edge technologies. Worked closely with
+                        cross-functional teams to ensure the seamless integration of new features and optimizations,
+                        enhancing the user experience.
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                Vansh's Developer Portfolio
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Servives</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Youtube: www.vanshsportfolioyt.com</li>
+                    <li>Facebook: www.vanshsportfoliofacebook.com</li>
+                    <li>Instagram: www.vanshsportfolioinstagram.com</li>
+
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; vanshsprotfolio.com | All Rights Reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
